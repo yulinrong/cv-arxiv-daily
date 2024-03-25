@@ -1,0 +1,41 @@
+# TODO: add papers by configuration file
+base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
+user_name: "yulinrong"
+repo_name: "cv-arxiv-daily"
+show_authors: True
+show_links: True
+show_badge: True
+max_results: 2
+
+publish_readme: True
+publish_gitpage: False
+publish_wechat: False
+
+# file paths
+json_readme_path: './docs/cv-arxiv-daily.json'
+json_gitpage_path: './docs/cv-arxiv-daily-web.json'
+json_wechat_path: './docs/cv-arxiv-daily-wechat.json'
+
+md_readme_path: 'README.md'
+md_gitpage_path: './docs/index.md'
+md_wechat_path: './docs/wechat.md'
+
+# keywords to search
+keywords:
+  "Algorithmic Trading": 
+    filters: ["High Frequency Trading", "Strategies"]
+  "Machine Learning in Trading":
+    filters: ["Prediction", "Deep Learning Strategies", "Reinforcement Learning"]
+  "Risk Management":
+    filters: ["Value at Risk (VaR)", "Risk Prediction Models", "Capital Allocation"]
+  "Asset Pricing":
+    filters: ["Option Pricing Models", "Interest Rate Models", "Stock Pricing"]
+  "Portfolio Optimization":
+    filters: ["Mean-Variance Analysis", "Factor Models", "Dynamic Portfolio Strategies"]
+  "Financial Market Analysis":
+    filters: ["Market Anomalies and Efficiency", "Financial Network Analysis", "Financial Crisis Modeling"]
+  "Blockchain and Finance":
+    filters: ["Cryptocurrency Market Analysis", "Blockchain Applications in Finance", "Smart Contracts and Automated Trading"]
+  "Big Data in Finance":
+    filters: ["Social Media Data Analysis", "Big Data-driven Market Analysis", "Financial Data Science"]
+
